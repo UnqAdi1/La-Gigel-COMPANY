@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    background-color: rgba(229, 206, 56, 0.808);
+
+}
+
+h1{
+    font-family: Arial;
+    font-size: 30px;
+    color: black;
+    background-color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.meniu {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin-bottom: 20px;
+    background-color: red;
+    padding: 10px;
+}
+
+.meniu ol li {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.meniu li:hover {
+    background-color: rgb(234, 231, 231);
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+input {
+    display: block;
+    padding: 5px;
+    margin-bottom: 10px;
+}
